@@ -8,7 +8,7 @@ RSpec.configure do |config|
   config.raise_errors_for_deprecations!
 end
 
-RSpec.describe Business::Calendar do
+RSpec.describe BusinessCalendar::Calendar do
   describe ".load" do
     subject(:load_calendar) { described_class.load(calendar) }
 

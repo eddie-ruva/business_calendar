@@ -4,7 +4,7 @@ require "yaml"
 require "date"
 require "pathname"
 
-module Business
+module BusinessCalendar
   class Calendar
     VALID_KEYS = %w[holidays working_days extra_working_dates].freeze
 

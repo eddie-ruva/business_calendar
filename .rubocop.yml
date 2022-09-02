@@ -3,7 +3,7 @@ inherit_gem:
 
 RSpec/NestedGroups:
   Exclude:
-    - spec/business/calendar_spec.rb
+    - spec/business_calendar/calendar_spec.rb
 
 # Disabled as API uses set_holidays etc
 Naming/AccessorMethodName:

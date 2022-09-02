@@ -1,5 +1,5 @@
 # frozen_string_literal: true
 
-module Business
+module BusinessCalendar
   VERSION = "2.3.0"
 end
